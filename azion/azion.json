@@ -1,0 +1,42 @@
+{
+  "name": "fs-demo",
+  "bucket": "fs-demo",
+  "preset": "javascript",
+  "env": "production",
+  "prefix": "20250731173346",
+  "not-first-run": true,
+  "function": {
+    "id": 48096,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 44030,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 253327
+  },
+  "application": {
+    "id": 1753997076,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1753991165,
+    "name": "fs-demo",
+    "domain_name": "qeddex3xfk.map.azionedge.net",
+    "url": "https://qeddex3xfk.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 459878,
+        "name": "Execute Edge Function",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
