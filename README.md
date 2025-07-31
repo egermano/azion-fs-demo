@@ -1,35 +1,9 @@
-# Simple Typescript Router
+# Azion `fs`demo
 
-The Azion **Simple Typescript Router** is designed to simplify and enhance the deployment process for Typescript applications directly on the edge of the network.
+This demo shows how to use the `fs` module in an Azion edge function.
 
-## Usage Information
+## About Azion
 
-_Install dependencies_
+Azion is a web platform that provides a range of services for building and deploying web applications, including edge functions, serverless computing, and content delivery networks (CDNs).
 
-```bash
-
-npm install
-#or
-yarn install
-#or
-pnmp install
-
-```
-
-To start using this template with **Vulcan**, you need to:
-
-_Build Command_: To run the application build command
-
-```bash
-
-npx edge-functions@latest build
-
-```
-
-_Run local DEV_: To run the application locally with Vulcan
-
-```bash
-
-npx edge-functions@latest dev
-
-```
+Know more about [Azion](https://azion.com/).
